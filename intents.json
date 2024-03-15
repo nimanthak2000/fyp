@@ -1,0 +1,161 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Hello",
+        "Hey",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! Welcome to our diabetes support. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Farewell! Don't hesitate to return if you have more questions.",
+        "Take care and see you next time!",
+        "Goodbye! If you need further assistance, feel free to ask."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "what's your name?",
+        "who are you?",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "you can call me Medibot!",
+        "i am Medibot!"
+      ]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": [
+        "What is diabetes?",
+        "What if diabetes?",
+        "diabetes is"
+      ],
+      "responses": [
+        "Diabetes is a health condition where your body has trouble managing blood sugar levels."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of diabetes?",
+        "How can I tell if I have diabetes?",
+        "What signs should I look for in diabetes?",
+        "I'm experiencing symptoms like increased thirst and frequent urination."
+      ],
+      "responses": [
+        "Common symptoms of diabetes include increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, and slow wound healing. If you're experiencing these symptoms, it's important to consult a healthcare professional.",
+        "Symptoms of diabetes can include increased thirst, frequent urination, fatigue, unexplained weight loss, blurred vision, and slow wound healing. If you suspect you have diabetes, it's important to get tested and seek medical advice."
+      ]
+    },
+    {
+      "tag": "types",
+      "patterns": [
+        "What are the different types of diabetes?",
+        "Can you explain the types of diabetes?",
+        "How many types of diabetes are there?"
+      ],
+      "responses": [
+        "There are primarily three main types of diabetes: type 1 diabetes, type 2 diabetes, and gestational diabetes. Each type has its own causes, risk factors, and management strategies.",
+        "The main types of diabetes are type 1 diabetes, type 2 diabetes, and gestational diabetes. Type 1 is an autoimmune condition, type 2 is often related to lifestyle factors, and gestational diabetes occurs during pregnancy. Each type requires different management approaches."
+      ]
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "What should I eat if I have diabetes?",
+        "Can you recommend a diabetic-friendly diet?",
+        "What foods should I avoid with diabetes?"
+      ],
+      "responses": [
+        "A balanced diet for diabetes includes plenty of vegetables, lean proteins, whole grains, and healthy fats. It's important to limit sugary foods and drinks, refined carbohydrates, and high-fat foods.",
+        "A diabetic-friendly diet focuses on portion control, whole foods, and balanced meals. It's important to monitor carbohydrate intake and choose foods with a low glycemic index."
+      ]
+    },
+    {
+      "tag": "risk_factors",
+      "patterns": [
+        "What are the risk factors for diabetes?",
+        "Am I at risk for diabetes?",
+        "What factors increase the risk of diabetes?"
+      ],
+      "responses": [
+        "Risk factors for diabetes include family history, overweight or obesity, physical inactivity, unhealthy diet, high blood pressure, high cholesterol levels, and ethnicity. It's important to be aware of these factors and take steps to reduce your risk.",
+        "Factors that increase the risk of diabetes include genetics, lifestyle factors (such as unhealthy diet and lack of exercise), obesity, high blood pressure, and high cholesterol levels. If you have these risk factors, it's important to talk to your doctor about prevention strategies."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How can I prevent diabetes?",
+        "What are some ways to prevent diabetes?",
+        "Can diabetes be prevented?"
+      ],
+      "responses": [
+        "Lifestyle changes are the best way to prevent or delay the onset of type 2 diabetes. This includes reaching and maintaining a healthy body weight, staying physically active with at least 30 minutes of moderate exercise each day, eating a healthy diet low in sugar and saturated fat, and avoiding tobacco use."
+      ]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "How is diabetes diagnosed?",
+        "What tests are used to diagnose diabetes?",
+        "Can you explain the diagnosis process for diabetes?"
+      ],
+      "responses": [
+        "Diabetes can be diagnosed through relatively inexpensive blood glucose testing. Early diagnosis is important to prevent complications. People with type 1 diabetes require insulin injections for survival, while those with type 2 diabetes may need medications along with lifestyle changes to manage their blood sugar levels."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "How is diabetes treated?",
+        "What are the treatment options for diabetes?",
+        "Can diabetes be managed without medication?"
+      ],
+      "responses": [
+        "Treatment for diabetes often involves a combination of healthy lifestyle habits, medication, and regular monitoring. People with type 1 diabetes require insulin injections for survival, while those with type 2 diabetes may need medications such as metformin, sulfonylureas, or sodium-glucose co-transporters type 2 inhibitors to help manage their blood sugar levels."
+      ]
+    },
+    {
+      "tag": "complications",
+      "patterns": [
+        "What are the complications of diabetes?",
+        "Can diabetes cause complications?",
+        "What problems can diabetes lead to?"
+      ],
+      "responses": [
+        "Diabetes can lead to various complications, including heart disease, stroke, kidney disease, nerve damage (neuropathy), eye problems (retinopathy), foot problems, and skin conditions. Proper management and control of blood sugar levels are essential to reduce the risk of complications.",
+        "Complications of diabetes can include heart disease, stroke, kidney disease, nerve damage, eye problems, foot problems, and skin conditions. It's important for people with diabetes to work closely with their healthcare team to prevent and manage these complications."
+      ]
+    },
+    {
+      "tag": "family_history",
+      "patterns": [
+        "If my father has type 2 diabetes, does that mean that I am more likely to get it also?",
+        "Does diabetes run in families?",
+        "Is diabetes hereditary?"
+      ],
+      "responses": [
+        "You may have the genetic foundation for developing diabetes, but it is not inevitable. Lifestyle and food management are crucial"
+      ]
+    }
+  ]
+}

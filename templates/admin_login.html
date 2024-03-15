@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="static/icon.png" type="image/x-icon">
+    <title>Admin Login</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='adminLogin.css') }}">
+</head>
+
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form method="post" action="{{ url_for('admin_login') }}">
+        <h3>Admin Login Here</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="User name" id="username" name="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" name="password" required>
+        <br><br>
+        <div class="g-recaptcha" data-sitekey="6Lc-vmwpAAAAAF7RIBETHmqSnRqwFbjXFAGumRCZ"></div>
+
+        <button>Log In</button>
+
+    </form>
+</body>
+
+</html>
